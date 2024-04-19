@@ -50,12 +50,12 @@ class SignupFragment : BaseFragment() {
             val password=binding.passBox.text.toString().trim()
 
             if(!isValidEmail(email)){
-                Toast.makeText(requireContext(),"Invalid Email",Toast.LENGTH_LONG).show()
+                Toast.makeText(requireContext(),"Invalid Email Address",Toast.LENGTH_LONG).show()
                 return@setOnClickListener
             }
 
             if(password.length<6){
-                Toast.makeText(requireContext(),"Password must be at least 6 char long",Toast.LENGTH_LONG).show()
+                Toast.makeText(requireContext(),"Password must be at least 6 characters long",Toast.LENGTH_LONG).show()
                 return@setOnClickListener
             }
 
