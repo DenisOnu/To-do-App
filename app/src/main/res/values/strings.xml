@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">To-do Tasks</string>
+    <string name="already_have_account_login"><u>Already have account? Login</u></string>
+    <string name="new_user_register"><u>New user? Signup</u></string>
+</resources>
